@@ -1,0 +1,43 @@
+Script started on Mon 01 Oct 2018 12:16:14 AM EDT
+]0;hpistor@dmzlondo:~/CompOrg[?1034h[hpistor@dmzlondo CompOrg]$ cat hw3.esp 
+.i 4
+.o 2
+.ilb a b c d
+.ob y z
+.p 16
+0000 11
+0001 10
+0010 10
+0011 10
+0100 01
+0101 11
+0110 10
+0111 10
+1000 01
+1001 01
+1010 11
+1011 10
+1100 01
+1101 01
+1110 01
+1111 11
+.e
+]0;hpistor@dmzlondo:~/CompOrg[hpistor@dmzlondo CompOrg]$ espressor[K hw3.esp 
+.i 4
+.o 2
+.ilb a b c d
+.ob y z
+.p 8
+00-- 10
+-01- 10
+--00 01
+1--0 01
+0101 11
+1111 11
+0-1- 10
+1-0- 01
+.e
+]0;hpistor@dmzlondo:~/CompOrg[hpistor@dmzlondo CompOrg]$ exit
+exit
+
+Script done on Mon 01 Oct 2018 12:16:21 AM EDT
